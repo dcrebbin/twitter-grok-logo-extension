@@ -1,21 +1,21 @@
-# Repeat It!
+# Grok It
 
-Repeat It! is a Chrome Extension that allows you to repeat specific sections of a YouTube video
+Replaces the Grok logo on twitter/x with the cooler interstellar-esque blackhole logo
 
-### Example
+![Example](/example.png)
 
-![Example](/assets/example.png)
+Steps:
 
-video: https://www.youtube.com/watch?v=-RtEcdSS2-U
+1. pnpm i
 
-### Setup
+2. pnpm run build
 
-1. `pnpm/npm i`
+3. navigate to `chrome://extensions/`, `brave://extensions/` `somechromiumbrowser://extensions`
 
-2. `pnpm/npm build`
+4. Toggle developer mode
 
-3. Chromium Browser > Extensions > Load Unpacked > **Select dist**
+5. Load unpacked
 
-4. Navigate to your desired YouTube video and set the start and end time
+6. Select the v3 folder from the dist folder that was previously built
 
-probably bad for dopamine receptors but ¯\_(ツ)\_/¯
+7. reload twitter/x
